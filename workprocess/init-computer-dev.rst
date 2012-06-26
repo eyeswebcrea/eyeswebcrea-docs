@@ -108,4 +108,66 @@ Installation de Extension php 'exif':
 Si vous avez wamp :
 ~~~~~~~~~~~~~~~~~~~
 
-Cliquer sur l'icone de l'install
+.. note ::
+
+	Il faut avoir précédament installé et lancée wamp 
+
+Cliquer droit sur l'icone de dans la barre de notification
+
+Si elle n'y ai pas cliquer sur la petite fleche pour afficher les incones marsqué
+
+Dans le menu qui s'affiche cliquer sur php => extension => exif
+
+Wamp installera et activera l'extension et redémarera
+
+Si vous avez xamp :
+~~~~~~~~~~~~~~~~~~~
+
+Si vous avez easyphp : 
+~~~~~~~~~~~~~~~~~~~~~~
+
+Installation de Extension apache 'rewrite_module':
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Si vous avez wamp :
+~~~~~~~~~~~~~~~~~~~
+
+.. note ::
+
+	Il faut avoir précédament installé et lancée wamp 
+
+Cliquer droit sur l'icone de dans la barre de notification
+
+Si elle n'y ai pas cliquer sur la petite fleche pour afficher les incones marsqué
+
+Dans le menu qui s'affiche cliquer sur apache => extension => rewrite_modul
+
+Wamp installera et activera l'extension et redémarera
+
+Si vous avez xamp :
+~~~~~~~~~~~~~~~~~~~
+
+Si vous avez easyphp : 
+
+Installation de php 5.3:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Si vous avez wamp :
+~~~~~~~~~~~~~~~~~~~
+
+.. note ::
+
+	Il faut avoir précédament installé et lancée wamp 
+
+Cliquer droit sur l'icone de dans la barre de notification
+
+Si elle n'y ai pas cliquer sur la petite fleche pour afficher les incones marsqué
+
+Dans le menu qui s'affiche cliquer sur php => version => 5.3.9
+
+Wamp installera et activera l'extension et redémarera
+
+Si vous avez xamp :
+~~~~~~~~~~~~~~~~~~~
+
+Si vous avez easyphp : 
