@@ -6,5 +6,6 @@ Bienvenue dans la documentation de eyeswebcrea
    :maxdepth: 1 
    
    workprocess/index
+   bundles/index
 
    
