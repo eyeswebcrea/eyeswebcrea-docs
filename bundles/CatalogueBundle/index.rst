@@ -97,4 +97,26 @@ catalogue_manager
    - Ce paramètre est optionelle
    - Ce paramètre prend par défaut ``eyeswebcrea_catalogue.catalogue_manager``
 	
+Personaliser son catalogue Manager
+----------------------------------
+
+Afin de personaliser la source il est possible de crée son propre catalogue manager
+
+Si vous désirez utiliser un cms comme source alors nous vous conseillont d'utiliser 
+Un ``ContentManager`` fourni par le bundle ``AliasContentManager``
+
+Si un provider existe pour votre cms pour le bundle ``AliasContentManager`` et qu'il est configurée dans les paramètre du bundle
+Alors vous pourez communiquer par l'interface ``ContentManager`` Fourni par le bundle ``AliasContentManager``
+	
+Un provider pour le catalogueManager doit être composée de plusieur choses :
+	- Un Catalogue Manager
+	- Un Categorie Entity
+	- Un Categorie Manager
+	- Un EntityListTransform
+	- Un ProductEntity
+	- Un ProductManager
+	- Un TagEntity
+	- UN TagManager
+	
+Voici une schématique de la structure
 	
