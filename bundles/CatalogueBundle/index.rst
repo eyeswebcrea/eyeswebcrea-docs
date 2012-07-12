@@ -25,11 +25,11 @@ theme
 ~~~~~
 
 	Le paramètre thème permet de définir un thème pour le catalogue parmis ceux disponible
-	Si ce paramètre n'est pas défini dans les paramètre de l'application il vaudra par défaut ``Default``
 	
 .. note::
 
-	Ce parametre est optionel
+	- Ce parametre est optionel
+	- Ce paramètre prend par défaut ``Default``
 	
 id_catalogue
 ~~~~~~~~~~~~
@@ -38,18 +38,18 @@ id_catalogue
 
 .. warning::
 
-	Ce paramètre sera bientot obsolète
-	Ce paramètre est obligatoire
+	- Ce paramètre sera bientot obsolète
+	- Ce paramètre est obligatoire
 	
 item_par_page
 ~~~~~~~~~~~~~
 
 	Ce paramètre permet de spécifié le nombre d'item que l'on shouaite afficher au maximum par page
-	Si ce paramètre n'est pas défini dans les paramètre de l'application il vaudra par défaut ``10``
 		
 .. note::
 	
-	Ce paramètre est optionelle
+	- Ce paramètre est optionelle
+	- Ce paramètre prend par défaut ``10``
 		
 
 keywork_categorie
@@ -59,8 +59,8 @@ keywork_categorie
 	
 .. warning::
 
-	Ce parametètre sera bientot obsolète
-	Ce paramètre est obligatoire
+	- Ce parametètre sera bientot obsolète
+	- Ce paramètre est obligatoire
 	
 keywork_produit
 ~~~~~~~~~~~~~~~
@@ -69,8 +69,8 @@ keywork_produit
 	
 .. warning::
 
-	Ce parametètre sera bientot obsolète
-	Ce paramètre est obligatoire
+	- Ce parametètre sera bientot obsolète
+	- Ce paramètre est obligatoire
 	
 simulaite_bot
 ~~~~~~~~~~~~~
@@ -80,7 +80,8 @@ simulaite_bot
 	
 .. info::
 
-	Ce paramètre est optionelle
+	- Ce paramètre est optionelle
+	- Ce paramètre prend par défaut ``false``
 	
 catalogue_manager
 ~~~~~~~~~~~~~~~~~
@@ -91,10 +92,9 @@ catalogue_manager
 	Ce Catalogue Manager permet d'adapter le catalogue à n'importe quel source pourvu que son
 	provider est été développer.
 	
-	S'il n'est pas renseigné dans les paramètre de l'application ce paramètre prend par défaut la valeur ``eyeswebcrea_catalogue.catalogue_manager``
-	
 .. info::
 	
-   Ce paramètre est optionelle
+   - Ce paramètre est optionelle
+   - Ce paramètre prend par défaut ``eyeswebcrea_catalogue.catalogue_manager``
 	
 	
