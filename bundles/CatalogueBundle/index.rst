@@ -119,4 +119,5 @@ Un provider pour le catalogueManager doit être composée de plusieur choses :
 	- UN TagManager
 	
 Voici une schématique de la structure
+
 	
