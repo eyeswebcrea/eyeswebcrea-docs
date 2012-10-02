@@ -1,12 +1,11 @@
 ======================================================
-Bienvenue dans la documentation de eyeswebcrea
+Bienvenue dans la documentation du serveur
 ======================================================
 
 .. toctree::
    :maxdepth: 1 
    
-   workprocess/index
-   bundles/index
-   serveur/index
+   mailling/index
+
 
    
