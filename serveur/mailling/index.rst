@@ -43,3 +43,8 @@ Configuration actuelle des alias
    |contact@gregoland.fr 					contact@gregoland.fr
 
    |test1910@la-pizz.fr 					test1910@la-pizz.fr
+   
+Comment ajouter une adressse mail ?
+===================================
+
+INSERT INTO comptes VALUES('commande@la-pizz.fr', ENCRYPT("FV1aE21"), 0, 1, 1, 1)
