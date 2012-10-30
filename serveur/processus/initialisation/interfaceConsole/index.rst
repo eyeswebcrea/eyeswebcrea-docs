@@ -5,16 +5,6 @@ Initialisation d'un site internet
 
 .. image:: images/1-1.png
 
-
-
-
-
-
-
-
-
-
-
 2. Une fenetre s'ouvre 
 
 3. On vous demande 'Do you want to run "manage.sh", or display its contents ?'
@@ -48,7 +38,7 @@ Initialisation d'un site internet
  
 9. Taper le puis appuyez sur entrer 
 
-13. Tapez le mot de passe du votre compte utilisateur de votre machine local
+13. Tapez le mot de passe qui vous est demande : 147258
 
 .. image:: images/1-8.png
 
@@ -63,7 +53,7 @@ Initialisation d'un site internet
 
 12. Entre le nom de domaine du site sans les www
 
-13. Tapez le mot de passe qui vous est demande : 147258
+13. Tapez le mot de passe du votre compte utilisateur de votre machine local
 
 .. image:: images/1-12.png
 
