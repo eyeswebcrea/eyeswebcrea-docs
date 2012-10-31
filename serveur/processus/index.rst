@@ -6,4 +6,5 @@ Bienvenue dans la documentation des process
    :maxdepth: 1 
    
    initialisation/index
+   publication/index
 
