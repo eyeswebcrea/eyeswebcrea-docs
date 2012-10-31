@@ -8,6 +8,7 @@ Bienvenue dans la documentation du serveur
    mailling/index
    processus/index
    database/index
+   faq
 
 
 Temp estime des process 
