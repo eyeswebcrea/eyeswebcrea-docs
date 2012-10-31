@@ -2,6 +2,7 @@ Foire aux questions
 ===================
 
 1. Que faire si je rencontre cette erreur symfony 'The directory "/var/www/sites_symfony/applications/__domaine_du_site__/app/cache/dev/annotations" is not writable' ?
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Traduction : Le repertoire "/var/www/sites_symfony/applications/__domaine_du_site__/app/cache/dev/annotations" n'est pas accessible en écriture
 
@@ -12,6 +13,7 @@ Ceci est lier au fait que le repertoire de cache 'app/cache/dev' a partir de la 
 Pour le resoudre reportez vous a la question n°5
 
 2. Que faire si je rencontre cette erreur symfony 'SQLSTATE[HYooo] [14] unable to open database file' ?
+-------------------------------------------------------------------------------------------------------
 
 Ceci est lier au fait que le fichier dev.sqlite situé repertoire contenant les bases sqlite spip/config/bases à partir de la 'racine de l'application'* ou le répertoire lui même n'a pas les droit pour être écrit par l'utilisateur nobody (autre utilisateur d'apache)'
 
@@ -20,6 +22,7 @@ Ceci est lier au fait que le fichier dev.sqlite situé repertoire contenant les 
 Pour le resoudre Reportez vous a la question n°5
 
 3. Que faire si je rencontre cette erreur symfony '500 Internal Server' ?
+-------------------------------------------------------------------------
 
 Ceci se produit quand une erreur se produit sur un site en production mais qu'el n'ai pas afficher pour des raisons de sécurité
 
@@ -30,6 +33,7 @@ Reportez vous a la question n°5, si cela ne corrige pas l'erreur alors il est n
 Reporter vous à la question n°6
 
 4. Que faire si je rencontre cette erreur spip 'verifiy write permissions' ?
+----------------------------------------------------------------------------
 
 Ceci est lier au fait que le répetoire 'tmp' et/ou 'local' qui contient le cache spip a partir de la 'racine de l'application'* n'a pas les droit pour être écrit par l'utilisateur nobody (autre utilisateur d'apache)'
 
@@ -38,6 +42,7 @@ Ceci est lier au fait que le répetoire 'tmp' et/ou 'local' qui contient le cach
 Reportez vous a la question n°5
 
 5. Comment utiliser la reparation automatique d'un site ?
+---------------------------------------------------------
 
 Reportez vous à la question n°7 pour lancer 'l'outils de gestion eyeswebcrea' puis faites ce qui suit.
 
@@ -54,6 +59,7 @@ Dans l'ecran de choix suivant taper 1 pour reparer votre site s'il est en versio
 .. image:: images/2-7.png
 
 6. Comment afficher les erreur d'une version en prod revoyant '500 Internal Server'
+-----------------------------------------------------------------------------------
 
 Modifier la ligne '$kernel = new AppKernel('prod', false);' du fichier web/app.php
 
@@ -70,6 +76,7 @@ Quand vos test sont finit n'oubliez pas de remetre la valuer d'origine
 	Important : n'oubliez pas de commiter vos changement 
 
 7. Comment lancer l'outils de gestion eyeswebcrea
+-------------------------------------------------
 
 	7.1 double cliquer sur l'icone 'Outils de gestion eyeswebcrea'
 	
