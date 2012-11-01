@@ -93,5 +93,32 @@ Quand vos test sont finit n'oubliez pas de remetre la valuer d'origine
 	
 	.. image:: images/1-3.png
 
+8. Comment crée une adresse email
+---------------------------------
+
+Reportez vous à la question n°7 pour lancer 'l'outils de gestion eyeswebcrea' puis faites ce qui suit.
+
+On vous demande l'action que vous désirez éxécuté
+
+Taper 2 pour choisir de crée un email
+
+.. image:: images/6-1.png
+
+Tape le domaine de l'email que vous désirer crée sans 333 puis appuyez sur entrée (Celui ci doit être préablement achetée)
+	
+.. image:: images/6-2.png
+
+Taper l'identifiant de l'email que vous desirez crée (inscription pour inscription@domaine)
+		
+.. image:: images/6-3.png
+
+Si vous voyer "L'email __email__ à été crée avec le mode de passe __mot_de_passe__'
+
+Alors l'email à été crée avec succès 
+			
+.. image:: images/6-4.png
+
+PS : la commande sql sans l'assistant pour crée un email est la suivante 'INSERT INTO comptes VALUES('commande@la-pizz.fr', ENCRYPT("FV1aE21"), 0, 1, 1, 1)'
 
 *: La racine de l'application est /var/www/sites_symfony/applications/__domaine_du_site__/
+
