@@ -1,5 +1,5 @@
 ======================================================
-Bienvenue dans la documentation des bases de données
+Base de données
 ======================================================
 
 .. toctree::
