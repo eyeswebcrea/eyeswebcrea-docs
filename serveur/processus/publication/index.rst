@@ -1,5 +1,5 @@
 ===================================================================
-Bienvenue dans la documentation du process de publication console
+Process de publication console
 ===================================================================
 
 .. toctree::

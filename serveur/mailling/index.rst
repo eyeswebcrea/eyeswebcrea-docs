@@ -1,5 +1,5 @@
 ======================================================
-Bienvenue dans la documentation du serveur de mail
+Serveur de mail
 ======================================================
 
 Il faut savoir que certaine adresse ont leur courier redirigé directement vers les alias*

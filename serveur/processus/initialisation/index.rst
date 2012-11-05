@@ -1,5 +1,5 @@
 ===================================================================
-Bienvenue dans la documentation du process d'initialisation console
+Process d'initialisation console
 ===================================================================
 
 .. toctree::

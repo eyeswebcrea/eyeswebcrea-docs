@@ -1,4 +1,5 @@
-Foire aux questions
+===================
+Faq
 ===================
 
 1. Que faire si je rencontre cette erreur symfony 'The directory "/var/www/sites_symfony/applications/__domaine_du_site__/app/cache/dev/annotations" is not writable' ?

@@ -27,7 +27,7 @@ Il faut simplement supprimer le fichier de la base de donnée
 
 SELECT * FROM __NOM_TABLE__
 
-Sauvegarder une base
+6.Sauvegarder une base
 --------------------
 
 Il suffit juste de copier le fichier se trouvant dans 
@@ -36,7 +36,7 @@ spip/config/bases/dev.sqlite pour la version de développement
 
 spip/config/bases/prod.sqlite pour la version de production
 
-Restaurer une base
+7.Restaurer une base
 ------------------
 
 Il suffit juste de remplacer le fichier se trouvant dans 
@@ -44,3 +44,6 @@ Il suffit juste de remplacer le fichier se trouvant dans
 spip/config/bases/dev.sqlite pour la version de développement
 
 spip/config/bases/prod.sqlite pour la version de production
+
+8.Configurer symfony2
+---------------------

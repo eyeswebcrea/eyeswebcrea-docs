@@ -31,7 +31,7 @@ DROP __DATABASE__;
 
 SELECT * FROM __NOM_TABLE__
 
-Sauvegarder une base
+6.Sauvegarder une base
 --------------------
 
 Pour sauvegarder (dump) une base mysql dans un fichier texte on utilise la fonction mysqldump :
@@ -51,7 +51,7 @@ Voici la ligne de commande pour sauveagarder une table de la base :
 
 mysqldump -u login -p password -h nom_serveur_rmysql --opt nom_base nom_table > sauvegarde_dune_seule_table_de_la_base.sql
 
-Restaurer une base
+7.Restaurer une base
 ------------------
 
 mysql ma_base < sauvegarde_de_ma_base.sql
@@ -59,3 +59,6 @@ mysql ma_base < sauvegarde_de_ma_base.sql
 P.S : Il faut que la base de donnée existe sinon il faut la crée avec
 
 CREATE DATABASE IF NOT EXISTS nom_base__
+
+8.Configurer symfony2
+---------------------
