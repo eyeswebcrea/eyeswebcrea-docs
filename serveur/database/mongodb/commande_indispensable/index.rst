@@ -3,7 +3,7 @@
 ===========================================
 
 1.Se connecter en ligne de commande
-----------------------------------
+-----------------------------------
 
 mongo	
 
@@ -37,7 +37,7 @@ db.__nom_table__.find();
 mongodump --db __DATABASE__ --out __OUT_FILE__
 
 7.Restaurer une base
-------------------
+--------------------
 
 mongorestore __backup_file__
 
