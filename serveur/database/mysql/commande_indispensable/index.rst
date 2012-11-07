@@ -40,6 +40,37 @@ La syntaxe de la commande mysqldump est la suivante :
 
 
 mysqldump [OPTIONS] ma_base_de_donnee [ma_table1, ma_table2,...]
+Modifier le fichier app/config/parameters.ini de votre application
+
+::
+
+	; These parameters can be imported into other config files
+	; by enclosing the key with % (like %database_user%)
+	; Comments start with ';', as in php.ini
+	[parameters]
+	    database_driver   = pdo_sqlite
+	    database_host     = localhost
+	    database_port     =
+	    database_user     = john
+	    database_password = 147258
+	    database_name     = default.sqlite
+	    database_path     = %kernel.root_dir%/../spip/config/bases/prod.sqlite
+	
+	    mailer_transport  = smtp
+	    mailer_host       = localhost
+	    mailer_user       =
+	    mailer_password   =
+	
+	    locale            = fr
+	
+	    secret            = ThisTokenIsNotSoSecretChangeIt
+	    
+
+database_driver : le drivers correspond au type de base de donnée ici 'pdo_sqlite' pour 'sqlite'
+database_host : mettre 'localhost' cela n'a pas de sens pour une base sqlite mais c'est obligatoire
+database_name : mettez le nom de votre base peut importe
+database_path : mettez le path vers le fichier de votre base %kernel.root_dir% symbolyse
+le répertoire app/ de votre application
 
 Voici la ligne de commande pour sauveagarder la base entière :
 
@@ -62,3 +93,38 @@ CREATE DATABASE IF NOT EXISTS nom_base__
 
 8.Configurer symfony2
 ---------------------
+
+Modifier le fichier app/config/parameters.ini de votre application
+
+::
+
+	; These parameters can be imported into other config files
+	; by enclosing the key with % (like %database_user%)
+	; Comments start with ';', as in php.ini
+	[parameters]
+	    database_driver   = pdo_mysql
+	    database_host     = localhost
+	    database_port     = 
+	    database_user     = john
+	    database_password = 147258
+	    database_name     = default.sqlite
+	    database_path     = 
+	
+	    mailer_transport  = smtp
+	    mailer_host       = localhost
+	    mailer_user       =
+	    mailer_password   =
+	
+	    locale            = fr
+	
+	    secret            = ThisTokenIsNotSoSecretChangeIt
+	    
+
+database_driver : le drivers correspond au type de base de donnée ici 'pdo_mysql' pour 'mysql'
+database_host : mettre 'localhost' car la base de donée est sur le meme pc que l'application
+database_port : mettre le port 3306 de préférence celui par défaut de mysql
+database_name : mettez le nom de la base de donnée
+database_path : laisser vide
+
+le répertoire app/ de votre application
+

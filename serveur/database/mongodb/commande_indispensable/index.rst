@@ -42,6 +42,22 @@ mongodump --db __DATABASE__ --out __OUT_FILE__
 mongorestore __backup_file__
 
 
+8.Configurer symfony2
+---------------------
+
+Modifier le fichier app/config/config.yml de votre application
+
+::
+
+	doctrine_mongodb:
+	    connections:
+	        default:
+	            server: mongodb://localhost:27017
+	            options:
+	                connect: true
+	                
+Mettre dans serveur mongodb://__ip_serveur__:__port_serveur__
+
 Lexique 
 -------
 database : database
